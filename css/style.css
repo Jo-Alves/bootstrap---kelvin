@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,700i,800,800i&display=swap');
+
+*{
+    font-family: "open sans", sans-serif;
+    font-size: 15px;
+    box-sizing: border-box !important;
+}
+
+#curriculo,
+#trabalho p{
+    line-height: 1.5;
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+}
+
+.nav-link:hover{
+    background-color: rgb(37, 37, 37);
+}
+
+.nav-link i{
+    font-size: 20px;    
+}
+
+.navbar .active{
+    background-color: rgb(68, 187, 108);
+}
+
+header{
+background: url(../img/header-bg.jpg) center / cover;
+}
+
+.cabecalho{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 100px;
+    height: 80vh;;
+}
+
+#about, #habilidade{    
+    background-color: rgb(54, 54, 78);
+}
+
+#about,
+#habilidade, 
+#curriculo,
+#portfolio,
+#contato{
+    padding: 80px 50px;
+}
+
+#contato{
+    background-color: rgb(43, 41, 41);
+}
+
+.link-sociais i{
+    color: rgb(68, 187, 108);
+    font-size: 20px;
+}
+
+.link-sociais i:hover{
+    color: white;
+}
+
+input{
+    height: 50px !important;
+    display: inline-block;
+    width: 100%;
+}
+
+button[type="button"]{
+    background-color: rgb(68, 187, 108);
+    display: block;
+}
+
+footer{
+    background-color: black;
+}
+
+footer a{
+    color: rgb(68, 187, 108)!important;
+}
+
+footer a:hover{
+    color: #999 !important;
+}
+
+.alert{
+    color: red;
+    font-size: 13px !important;
+}
+
+.alert-success{
+    display: none;
+}
+
+.alert-message{
+    display: block;
+}

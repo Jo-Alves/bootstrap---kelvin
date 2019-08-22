@@ -44,7 +44,15 @@
         else {
             $alert[3].innerHTML = "";
         }
+
+        if ($("#nome").val().length >= 4 && $("#email").val().length >= 8 && validacao && $("#message").val().length > 0) {
+            $("#alert-message").addClass("alert-message");
+        }
+        else{
+            $("#alert-message").removeClass("alert-message");
+        }
     }
+
     function validarEmail(email) {
         let user = email.substring(0, email.indexOf("@"));
         let dominio = email.substring(email.indexOf("@") + 1, email.length);
